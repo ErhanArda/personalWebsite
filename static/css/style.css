@@ -29,7 +29,12 @@ h1, h2, h3{
 	font-weight: bold;
 	margin-top: 20px;
 }
-
+@media screen and (max-width: 1400px) {
+    .moons, .error{
+      visibility: hidden;
+   }
+ 
+}
 #page1{
     background: url(https://images.unsplash.com/photo-1436891620584-47fd0e565afb?q=80&fm=jpg&s=33cf5b0ee9fbd292475a0c03bee481c9);
     background-position: center center;
